@@ -1,4 +1,4 @@
-//import {Strategy, ExtractJwt} from "passport-jwt";
+//import {Strategy, ExtractJwt} from "passport-jwt"
 import db from '../models/index.js'
 const applyPassport = (passport, _secretOrKey)  => {
     const jwtOptions = {

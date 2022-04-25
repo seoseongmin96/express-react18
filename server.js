@@ -10,7 +10,7 @@ import boardRouter from './app/routes/board.js'
 import userRouter from './app/routes/user.js'
 import todoRouter from './app/routes/todo.js'
 //import getResponse from "../app/lambdas/getResponse.js"
-import applyPassport from './app/lambdas/applyPassport.js'
+//import applyPassport from './app/lambdas/applyPassport.js'
 import applyDotenv from './app/lambdas/applyDotenv.js'
 
 

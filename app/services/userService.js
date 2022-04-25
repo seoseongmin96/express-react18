@@ -1,5 +1,6 @@
 import db from "../models/index.js"
-//import getDatabase from '../lambdas/getDatabasejs'
+import getDatabase from '../lambdas/getDatabase.js'
+import dotenv from 'dotenv'
 
 export default function UserService() {
     const User = db.User
