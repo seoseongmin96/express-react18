@@ -49,6 +49,7 @@ export default function UserService() {
                 }) */
         },
         login(req, res) {
+            console.log(req.body.userid)
             User
                 .findOne({userid: req.body.userid}, function(err, user){
                     if(err) throw err
